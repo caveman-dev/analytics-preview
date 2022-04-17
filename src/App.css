@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+  background-color: #F8F9FA;
+  min-height: 100vh;
+}
+/* *{
+  background-color: #F8F9FA;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.parent-header{
+ /* margin: 0 auto; */
+ width: 60vw;
+ display: inline-block;
+}
+.header{
+
+  /* margin: 0 auto; */
+  width: fit-content;
+  margin-left: 20vw;
+  text-align: center;
+}
+.data-holder{
+  display: inline-block;
+  float: right;
+  padding: 5px;
+  margin-right: 5vw;
+  margin-top: 3vh;
+}
+.date-parent{
+  display: flex;
+  align-items: baseline;
+  font-weight: bold;
+}
+#icon{
+  width:150px
+}
+#icon1{
+  width:150px
+}
+.tabmenu{
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 800px) {
+  .header{
+
+    /* margin: 0 auto; */
+    width: fit-content;
+ margin: 0 auto;
+    text-align: center;
+  }
+  .data-holder{
+    display: block;
+    float: none;
+    margin: 0 auto;
+    padding: 10px;
+    /* margin-right: 5vw;
+    margin-right: 5vw;
+    margin-top: 3vh; */
+  }
+}
+.heading-parent{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+flex-wrap: wrap;
+}
+.heading-text{
+display: flex;
+/* padding-left: 38vw; */
+justify-content: flex-end;
+width:60vw
+
+}
+.cards-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.main-content{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+}
+.chart-parent{
+  width: 60vw;
+  padding: 20px;
+  
+}
+@media screen and (max-width: 1140px) {
+  .heading-text{
+    display: flex;
+    /* padding-left: 38vw; */
+    justify-content: center;
+    width:60vw
+    
+    }
+}
+@media screen and (min-width: 460px) {
+.tabmenu{
+  width: 90vw;
+  margin:0 auto;
+}
+}
+@media screen and (max-width: 900px) {
+  .chart-parent{
+    width: 90vw;
+    padding: 20px;
+    
+  }
+}
